@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    border: 2px solid;
+    padding: 10px;
+    gap: 10px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.flex-child{
+    border: 2px solid;
+    padding: 20px;
+    flex-shrink: 0;
+}
+.child1{
+    background-color: aqua;
+    width: 400px;
+
+}
+.child2{
+    background-color: aquamarine;
+    width: 600px;
+
+}
+.child3{
+    background-color: cadetblue;
+    width: 500px;
+
+}
+.child4{
+    background-color: cornflowerblue;
+    width: 500px;
+}
+.child5{
+    background-color: darkgoldenrod;
+    width: 500px;
+}
+.child6{
+    background-color:yellow;
+    width: 400px;
+}
